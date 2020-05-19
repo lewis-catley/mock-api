@@ -1,0 +1,16 @@
+{
+  "name": "mock-api",
+  "version": "0.0.1",
+  "description": "An example of how to use Json-Server to implement a mock JSONAPI server",
+  "scripts": {
+    "prestart": "node data/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Lewis Catley",
+  "license": "ISC",
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "json-server": "^0.16.1",
+    "jwt-decode": "^2.2.0"
+  }
+}
